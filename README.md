@@ -14,7 +14,7 @@ In your GitHub Actions workflow, use this action like so:
 
 ```yaml
 - name: Install pyupgrade from PyPI
-  uses: install-pinned/pyupgrade@ffffffffffffffffffffffffffffffffffffffff
+  uses: install-pinned/pyupgrade@e55628f8daa2ea60ac68e655f11e200aa57d044e  # 3.0.0
 ```
 
 ## Alternatives
