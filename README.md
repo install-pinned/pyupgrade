@@ -14,7 +14,7 @@ In your GitHub Actions workflow, use this action like so:
 
 ```yaml
 - name: Install pyupgrade from PyPI
-  uses: install-pinned/pyupgrade@d73c045826d941cf73fea27c6a6581342185ab10  # 3.0.0
+  uses: install-pinned/pyupgrade@ffffffffffffffffffffffffffffffffffffffff
 ```
 
 ## Alternatives
@@ -23,5 +23,4 @@ This action is a relatively simple wrapper around the fantastic [pip-tools](http
 
 ## More Details
 
-See the [main repository](https://github.com/install-pinned/overview) for details.
-
+See the [@install-pinned README](https://github.com/install-pinned) for details.
