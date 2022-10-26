@@ -13,8 +13,8 @@ This action installs a pinned version of **pyupgrade** and all its dependencies,
 In your GitHub Actions workflow, use this action like so:
 
 ```yaml
-- name: Install pyupgrade from PyPI
-  uses: install-pinned/pyupgrade@f6fe6f2c627ca249a60b996d01ebe93d0a51b1ac  # 3.1.0
+      - name: Install pyupgrade from PyPI
+        uses: install-pinned/pyupgrade@f6fe6f2c627ca249a60b996d01ebe93d0a51b1ac  # 3.1.0
 ```
 
 ## Alternatives
