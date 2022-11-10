@@ -4,9 +4,9 @@
 #
 #    pip-compile --allow-unsafe --generate-hashes --output-file=pins/requirements-3.11.txt pins/requirements.in
 #
-pyupgrade==3.2.0 \
-    --hash=sha256:2aa6c40e49ea5a350e6e45b8c7847b1741aef274a35d4f0b2bf91731ec8ab796 \
-    --hash=sha256:70e1ac1e6b34a90fb21f5cada1907ef035b12dfc1d9f13cefd367acf3b530310
+pyupgrade==3.2.1 \
+    --hash=sha256:61b69c0e89fca476082f5df04f72d48bdb49a662a0d74b19269e95b750b80ebe \
+    --hash=sha256:a33650cc912253076dd99b7725c826d579d3b069f352ae10e34de6e46194f566
     # via -r pins/requirements.in
 tokenize-rt==5.0.0 \
     --hash=sha256:3160bc0c3e8491312d0485171dea861fc160a240f5f5766b72a1165408d10740 \
