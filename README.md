@@ -1,12 +1,17 @@
 
-
 # install-pinned/pyupgrade
+<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+<!-- ⚠️auto-generated from init.py, do not edit manually ⚠️-->
+<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
 
 ![](https://shields.io/badge/python-3.7%20%7C%203.8%20%7C%203.9%20%7C%203.10%20%7C%203.11-blue)
 
 Securely install the latest [pyupgrade](https://pypi.org/project/pyupgrade/) release from PyPI.
 
-This action installs a pinned version of **pyupgrade** and all its dependencies,         making sure that file hashes match. Pinning your dependencies stops supply chain attacks where an adversary         replaces pyupgrade or one of its dependencies with malicious code.
+This action installs a pinned version of **pyupgrade** and all its dependencies,         making sure that file hashes match. Pinning your dependencies:
+
+ 1. Stops software supply chain attacks.
+ 2. Makes sure your CI does not break unexpectedly.
 
 ## Usage
 
@@ -16,6 +21,9 @@ In your GitHub Actions workflow, use this action like so:
       - name: Install pyupgrade from PyPI
         uses: install-pinned/pyupgrade@af89949980e7fc6cb52f8a4c636ed30764142064  # 3.2.2
 ```
+
+You can [set up Dependabot](https://docs.github.com/en/code-security/dependabot/working-with-dependabot/keeping-your-actions-up-to-date-with-dependabot#example-dependabotyml-file-for-github-actions)
+so that your pins are updated regularly.
 
 ## Alternatives
 
