@@ -20,7 +20,7 @@ In your GitHub Actions workflow, use this action like so:
 
 ```yaml
       - name: Install pyupgrade from PyPI
-        uses: install-pinned/pyupgrade@0746ef411a90201a4847c804309740f2efe43053  # 3.3.1
+        uses: install-pinned/pyupgrade@db06a3f6a625d655ff69b19995f53146fab921c0  # 3.3.1
 ```
 
 You can [set up Dependabot](https://docs.github.com/en/code-security/dependabot/working-with-dependabot/keeping-your-actions-up-to-date-with-dependabot#example-dependabotyml-file-for-github-actions)
