@@ -1,6 +1,6 @@
-pyupgrade==3.3.1 ; python_version >= "3.7" and python_version < "4.0" \
-    --hash=sha256:3b93641963df022d605c78aeae4b5956a5296ea24701eafaef9c487527b77e60 \
-    --hash=sha256:f88bce38b0ba92c2a9a5063c8629e456e8d919b67d2d42c7ecab82ff196f9813
-tokenize-rt==5.0.0 ; python_version >= "3.7" and python_version < "4.0" \
-    --hash=sha256:3160bc0c3e8491312d0485171dea861fc160a240f5f5766b72a1165408d10740 \
-    --hash=sha256:c67772c662c6b3dc65edf66808577968fb10badfc2042e3027196bed4daf9e5a
+pyupgrade==3.15.0 ; python_full_version >= "3.8.1" and python_version < "4.0" \
+    --hash=sha256:8dc8ebfaed43566e2c65994162795017c7db11f531558a74bc8aa077907bc305 \
+    --hash=sha256:a7fde381060d7c224f55aef7a30fae5ac93bbc428367d27e70a603bc2acd4f00
+tokenize-rt==5.2.0 ; python_full_version >= "3.8.1" and python_version < "4.0" \
+    --hash=sha256:9fe80f8a5c1edad2d3ede0f37481cc0cc1538a2f442c9c2f9e4feacd2792d054 \
+    --hash=sha256:b79d41a65cfec71285433511b50271b05da3584a1da144a0752e9c621a285289
